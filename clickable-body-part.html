@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            
+        }
+        
+    </style>
+    
+</head>
+<body>    
+    <img src="IMG-20221110-WA0028.jpg" usemap="#image-map">
+    <map name="image-map">
+        <area onclick="one()" alt="face" title="" coords="351,227,477,378" shape="rect">
+        <area onclick="two()" alt="watch" title="" coords="325,880,116,1008" shape="rect">
+        <area onclick="three()" alt="shoe" title="" coords="205,661,282,744" shape="rect">
+    </map>
+</body>
+<script>
+    function one(){
+        alert("You have clicked the face")
+    }
+    function two(){
+        alert("You have clicked the shoe")
+    }
+    function three(){
+        alert("You have clicked the watch")
+    }
+</script>
+</html>
